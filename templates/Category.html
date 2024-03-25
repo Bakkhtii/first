@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Категория</title>
+</head>
+<body>
+{% for i in product %}
+<a href = "products/{{ i.id}}">{{i.product_tittle}}</a>
+{% endfor %}
+</body>
+</html>
